@@ -21,18 +21,11 @@ class Complex:
         return c
 
 c1=Complex(1,2)
-<<<<<<< HEAD
-<<<<<<< HEAD
 c2=Complex(2,3)
 print(c1.addition(c2))
-=======
 print(c1)
 
 c2=Complex(2,3)
 print(c2.multiple(c1))
->>>>>>> origin/multiplication
-=======
 c2=Complex(2,3)
 print(c1.substraction(c2))
-
->>>>>>> origin/substraction
