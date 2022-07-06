@@ -33,7 +33,7 @@ class Complex:
         return self.addition(c)
     def __sub__(self,c):
         return self.subtraction(c)
-    def __mult__(self,c):
+    def __mul__(self,c):
         return self.multiple(c)
     
 c1=Complex(1,2)
