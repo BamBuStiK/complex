@@ -16,7 +16,7 @@ class Complex:
         c.re=self.re+c1.re
         c.im=self.im+c1.im
         return c
-    
+
     def substraction(self, x):
         c=Complex()
         c.re=self.re - c1.re
@@ -28,6 +28,9 @@ class Complex:
         c.re = self.re*c1.re-self.im*c1.im
         c.im = self.re*c1.im+self.im*c1.re
         return c
+    
+    def __mul__(self,c):    # self*c
+        return self.multiple(c)
 
     def __add__(self,c):#self+c
         return self.add(c)
@@ -37,4 +40,5 @@ print(c1)
 c2=Complex(2,3)
 print(c1+c2)
 print(c2.substraction(c1))
-print(c1.multiple(c2))
+print(c1*c2)      #c1*c2
+
