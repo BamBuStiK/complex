@@ -10,7 +10,7 @@ class Complex:
 
     def __str__(self):
         return str(self.re)+"+"+str(self.im)+"i"
-        
+
 
     def substraction(self, x):
         c=Complex()
